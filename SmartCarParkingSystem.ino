@@ -14,8 +14,8 @@ LiquidCrystal_I2C lcd(I2C_ADDRESS, LCD_COLUMNS, LCD_ROWS); // Create a new Liqui
 
 const char DEVICE_LOGIN_NAME[] = "af17e661-1f55-452f-ac67-8293fc326aed";
 
-const char SSID[] = "realme";                         // Network SSID (name)
-const char PASS[] = "12345678";                   // Network password (use for WPA, or use as key for WEP)
+const char SSID[] = "WIFI-NAME";                         // Network SSID (name)
+const char PASS[] = "WIFI-PASSWORD";                   // Network password (use for WPA, or use as key for WEP)
 const char DEVICE_KEY[] = "WPHYHVQLSGS857AXHBUR";  // Secret device password
 
 bool s1 = false;
